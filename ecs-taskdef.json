@@ -1,8 +1,8 @@
 {
   "compatibilities": [
     "EC2",
-    "FARGATE",
-    "MANAGED_INSTANCES"
+    "MANAGED_INSTANCES",
+    "FARGATE"
   ],
   "containerDefinitions": [
     {
@@ -32,13 +32,13 @@
     }
   ],
   "cpu": "256",
-  "executionRoleArn": "arn:aws:iam::315558363288:role/nginx-fargate-ecs-task-execution-role",
+  "executionRoleArn": "arn:aws:iam::504063068738:role/nginx-fargate-ecs-task-execution-role",
   "family": "nginx-fargate-task",
   "memory": "512",
   "networkMode": "awsvpc",
   "placementConstraints": [],
-  "registeredAt": "2025-12-03T03:15:49.966Z",
-  "registeredBy": "arn:aws:iam::315558363288:user/terraformuser",
+  "registeredAt": "2025-12-07T19:13:29.017Z",
+  "registeredBy": "arn:aws:iam::504063068738:user/terraformuser",
   "requiresAttributes": [
     {
       "name": "com.amazonaws.ecs.capability.logging-driver.awslogs"
@@ -62,10 +62,10 @@
   "requiresCompatibilities": [
     "FARGATE"
   ],
-  "revision": 5,
+  "revision": 3,
   "status": "ACTIVE",
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:315558363288:task-definition/nginx-fargate-task:5",
-  "taskRoleArn": "arn:aws:iam::315558363288:role/nginx-fargate-ecs-task-role",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-1:504063068738:task-definition/nginx-fargate-task:3",
+  "taskRoleArn": "arn:aws:iam::504063068738:role/nginx-fargate-ecs-task-role",
   "volumes": [],
   "tags": [
     {
